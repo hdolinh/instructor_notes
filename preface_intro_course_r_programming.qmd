@@ -1,0 +1,104 @@
+---
+title: "Preface + Intro + Intro R Programming"
+author: "Halina Do-Linh"
+format: html
+editor: visual
+---
+
+# PREFACE
+
+## Setup
+
+-   On whiteboards:
+    -   Course book: https://learning.nceas.ucsb.edu/2023-04-coreR/
+    -   RStudio server: https://included-crab.nceas.ucsb.edu/
+    
+    -   Icebreaker (5 mins)
+        -   Name + Pronouns + Current Position + Field of Study
+        -   What part of the course are you most looking forward to?
+        -   Find something you have in common that isn't professional or coding related!
+    - Social events:
+        - UCSB TidyTuesday Meetup (5-6:30PM) at M. Special Brewing Co. in Goleta (6860 Cortona Dr Building C, Goleta, CA 93117)
+        - NCEAS Terrace Happy Hour (4:30-5:30PM)
+        - SB First Thursdays (5-8PM)
+
+## Key Messages / Lesson outline
+
+-   Welcome to the coreR course!
+-   Quick orientation from Ginger
+-   Learning objectives
+-   Schedule + Instructors + Icebreaker introductions (Camila and I demonstrate)
+    - Schedule: No longer than 2 hr lesson chunks, then a break. Breaks will be 30 mins, and 1 hr for lunch
+        - 14 topics 
+        - 3 R practice sessions where you'll be given a set of exercises to work on both individually and collaboratively 
+        - Green = technical lessons; blue = non-technical lessons
+        - We'll be meeting from 9AM - 5PM each day except for Friday we'll break early at 12:30PM
+        - We also have some social events occuring this week that you're all invited to (point out on whiteboards):
+            - For those of you who have a car on Tuesday UCSB is hosting their TidyTuesday Meetup NCEAS Happy Hour on the terrace (we're happy to connect you with NCEAS folks)
+            - NCEAS Happy Hour on the terrace (we're happy to connect you with NCEAS folks)
+            - SB First Thursdays 
+    -   Icebreaker
+    -   Me, Camila
+    -   Who you'll meet later:
+        -   Sam
+        -   Daphne
+-   NCEAS code of conduct (open in new tab)
+    -   Listed here is our expected behaviors
+    -   if you see anyone not following these expectations please either:
+        -   call 911 if it's a dangerous situation that requires immediate help
+        -   if not in immediate danger please report to:
+            -   one of the instructors (us)
+            -   our deputy director Courtney Scarborough whose office is the second one on the right hand side
+            -   directly to UCSB
+            -   UCSB's office of ombuds which provides support through informal and confidential consultations
+- Any questions about the plan for the week, the NCEAS building, our code of conduct, reporting or any other course logistics? Anything to add?
+
+## Transition
+
+-   Great! Thank you all so much for participating in the course and for abiding by our community
+
+**Time check / end time: 9:20 AM**
+
+------------------------------------------------------------------------
+
+# RSTUDIO SERVER SETUP
+
+## Setup
+
+- Did everyone successful 
+
+## Key messages / Lesson outline
+
+## Transition
+
+# `GIT` AND GITHUB SETUP
+
+## Setup
+
+## Key messages / Lesson outline
+
+## Transition
+
+**Time check / end time: 10:00 AM**
+
+------------------------------------------------------------------------
+
+# WHY R PROGRAMMING?
+
+## Setup
+
+## Key messages / Lesson outline
+
+## Transition
+
+# INTRO TO R PROGRAMMING
+
+## Setup
+
+## Key messages / Lesson outline
+
+## Transition
+
+- Time for break! We'll break for 30 mins now and 
+
+**Time check / end time: 11:00 AM**

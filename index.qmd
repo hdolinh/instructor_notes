@@ -1,0 +1,9 @@
+---
+title: "Lessons"
+format: html
+editor: visual
+---
+
+# Lessons
+
+-   [Preface + Intro + Intro R Programming](preface_intro_course_r_programming.html)
