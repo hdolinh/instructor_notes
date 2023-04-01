@@ -1,6 +1,7 @@
 ---
 title: "Preface + Intro + Intro R Programming"
 author: "Halina Do-Linh"
+toc: true
 format: html
 editor: visual
 ---
