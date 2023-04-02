@@ -10,37 +10,47 @@ editor: visual
 
 ## Setup
 
-- Green + Pink stickies on tentcards
+-   Green + Pink stickies on tentcards
 -   On whiteboards:
-    - WiFi + Password
+    -   WiFi + Password
+
     -   Course book: https://learning.nceas.ucsb.edu/2023-04-coreR/
+
     -   RStudio server: https://included-crab.nceas.ucsb.edu/
-    
+
     -   Icebreaker (5 mins)
+
         -   Name + Pronouns + Current Position + Field of Study
         -   What part of the course are you most looking forward to?
         -   Find something you have in common that isn't professional or coding related!
-    - Social events:
-        - UCSB TidyTuesday Meetup (5-6:30PM) at M. Special Brewing Co. in Goleta (6860 Cortona Dr Building C, Goleta, CA 93117)
-        - NCEAS Terrace Happy Hour (4:30-5:30PM)
-        - SB First Thursdays (5-8PM)
+
+    -   Social events:
+
+        -   UCSB TidyTuesday Meetup (5-6:30PM) at M. Special Brewing Co. in Goleta (6860 Cortona Dr Building C, Goleta, CA 93117)
+        -   NCEAS Terrace Happy Hour (4:30-5:30PM)
+        -   SB First Thursdays (5-8PM)
 
 ## Key Messages / Lesson outline
 
 -   Welcome to the coreR course!
 -   Quick orientation from Ginger
 -   Learning objectives
--   **Schedule + Instructors + Icebreaker** introductions (Camila and I demonstrate)
-    - **Schedule**: No longer than 2 hr lesson chunks, then a break. Breaks will be 30 mins, and 1 hr for lunch
-        - 14 topics 
-        - 3 R practice sessions where you'll be given a set of exercises to work on both individually and collaboratively 
-        - Green = technical lessons; blue = non-technical lessons
-        - We'll be meeting from 9AM - 5PM each day except for Friday we'll break early at 12:30PM
-        - We also have some **social events** occurring this week that you're all invited to (point out on whiteboards):
-            - For those of you who have a car on Tuesday UCSB is hosting their TidyTuesday Meetup NCEAS Happy Hour on the terrace (we're happy to connect you with NCEAS folks)
-            - NCEAS Happy Hour on the terrace (we're happy to connect you with NCEAS folks)
-            - SB First Thursdays 
-    -   Icebreaker
+    - Effectively manage data using tidy data practices and developing quality metadata
+    - Implement reproducible scientific workflows throughout all aspects of a project
+    - Build data visualizations and reusable reports using ggplot, markdown, and GitHub
+    - Increase your familiarity and confidence with R data science tools
+    
+-   **Schedule + Instructors / Icebreaker** introductions 
+    -   **Schedule**: No longer than 2 hr lesson chunks, then a break. Breaks will be 30 mins, and 1 hr for lunch
+        -   14 topics
+        -   3 R practice sessions where you'll be given a set of exercises to work on both individually and collaboratively
+        -   Green = technical lessons; blue = non-technical lessons
+        -   We'll be meeting from 9AM - 5PM each day except for Friday we'll break early at 12:30PM
+        -   We also have some **social events** occurring this week that you're all invited to (point out on whiteboards):
+            -   For those of you who have a car on Tuesday UCSB is hosting their TidyTuesday Meetup NCEAS Happy Hour on the terrace (we're happy to connect you with NCEAS folks)
+            -   NCEAS Happy Hour on the terrace (we're happy to connect you with NCEAS folks)
+            -   SB First Thursdays
+    -   Icebreaker (Camila and I demonstrate)
     -   Me, Camila
     -   Who you'll meet later:
         -   Sam
@@ -54,7 +64,7 @@ editor: visual
             -   our deputy director Courtney Scarborough whose office is the second one on the right hand side
             -   directly to UCSB
             -   UCSB's office of ombuds which provides support through informal and confidential consultations
-- Any questions about the plan for the week, the NCEAS building, our code of conduct, reporting or any other course logistics? Anything to add?
+-   Any questions about the plan for the week, the NCEAS building, our code of conduct, reporting or any other course logistics? Anything to add?
 
 ## Transition
 
@@ -68,44 +78,98 @@ editor: visual
 
 ## Setup
 
-- WiFi connection
-- included-crab link
-- RStudio Server account password reset
+-   WiFi connection
+-   included-crab link
+-   RStudio Server account password reset
 
 ## Key messages / Lesson outline
 
-- We're working in an RStudio sever so that everyone is working in the same environment
-   - helps with troubleshooting
-   - prevents errors 
-- Everyone connected to the WiFi?
-- Did everyone successful reset their password for their NCEAS RStudio server account? 
-   - If not, Camila can help or we can get additional help from Thomas our IT + Hardware guy
-   
-- **Everyone login to included-crab** the name of our RStudio Server
-   - once you've successfully logged in please put up a green sticky
-   
-- **Let's make our first R Project**
-  - An R Project is tied to a directory on your local computer, and makes organizing your work and collaborating with others easier
-  - Aka it it bundles all your work within a working directory (we'll come back to what a working directory is in a second)
-  - using an R project is a reproducible research best practice
-      - consider your current workflow: 
-          - how many different software programs do you use? What do you use them for?
-          - The power of RStudio and R programming is that you can very likely consolidate your workflow using just R and RStudio.
-    
-    - **Follow along with me** as I make an R Project and you can always refer to the steps in the green box or ask Camila for help
-    
+-   We're working in an RStudio sever so that everyone is working in the same environment
+
+    -   helps with troubleshooting
+    -   prevents errors
+
+-   Everyone connected to the WiFi?
+
+-   Did everyone successful reset their password for their NCEAS RStudio server account?
+
+    -   If not, Camila can help or we can get additional help from Thomas our IT + Hardware guy
+
+-   **Everyone login to included-crab** the name of our RStudio Server
+
+    -   once you've successfully logged in please put up a green sticky
+
+-   **Let's make our first R Project**
+
+    -   An R Project is tied to a directory on your local computer, and makes organizing your work and collaborating with others easier
+    -   Aka it it bundles all your work within a working directory (we'll come back to what a working directory is in a second)
+    -   using an R project is a reproducible research best practice
+        -   consider your current workflow:
+            -   how many different software programs do you use? What do you use them for?
+            -   The power of RStudio and R programming is that you can very likely consolidate your workflow using just R and RStudio.
+        -   **Follow along with me** as I make an R Project and you can always refer to the steps in the green box or ask Camila for help
+
 - **Now let's organize our R Project**
-  - 
+    - Now that we have our R Project set up we want to create some relevant directories or folders for our project
+    - There are some packages in R that will create a directory or folder structure for you and Camila will actually demonstrate this on Friday with the package `rrtools`
+    - The goal is to organize your project so that it is a compendium of your research. 
+    - This means that the project has all of the digital parts needed to replicate your analysis, like code, figures, the manuscript, and data access.
+    - Some common directories are: 
+        - data: where we store our data (often contains subdirectories for raw, processed, and metadata data)
+        - R: contains scripts for cleaning or wrangling, etc. (some find this name misleading if their work has other scripts beyond the R programming language, in which case they call this directory scripts)
+        - plots or figs: generated plots, graphs, and figures
+        - docs: summaries or reports of analysis or other relevant project information
+    - We're going to create a data, R, and figs directories which we will populate with different files throughout the week.
+    - Follow me on how to make a new folder. When you've created those three folders go ahead and put up a green sticky
+    
+- **Let's talk about how to move in our project**
+    - We've created these new directories but how do we tell our code to access the files within those directories? Aka how do we move within a project. We do this using paths.
+    - There are two types of paths in computing: absolute and relative paths
+    - An absolute path always starts with the root of your file system and locates files from there. The absolute path to my project directory is: /home/do-linh/training_do-linh
+    - Relative paths start from some location in your file system that is below the root, and starts in our working directory. RStudio projects automatically set the working directory to the directory of the project or where the `.Rproj` file is.
+    - This means instead of accessing data from my root I can use a shorter path using my working directory or my relative path.
+    - Using relative paths is not only convenient but also makes our code more reproducible and when we're collaborting
+    - For example, if I am reading in data using an absolute file path and my collaborator also wants to read in that data they wouldn't be able to because my absolute path doesn't exist in their local computer
 
 ## Transition
+
+Any questions about absolute or relative paths? Great! Let's move onto `Git` and GitHub setup.
 
 # `GIT` AND GITHUB SETUP
 
 ## Setup
 
+- GitHub account
+
 ## Key messages / Lesson outline
 
+- Was everyone able to successfully create a GitHub account?
+
+- Before using Git, you need to tell it who you are, also known as setting the global options. The only way to do this is through the command line.
+- Make sure you have a terminal window open and if not do this: Tools > Terminal > New Terminal
+- Now let's set some global options in our gitconfig file
+    - First let's set our username. This needs to match exactly to your username on github
+    ```git config --global user.name "hdolinh"```
+    - Next let's set our email. Same thing, make sure this matches exactly to your account on github
+    ```git config --global user.email "dolinh@nceas.ucsb.edu"```
+    - Next, we will set our credentials to not time out for a very long time. This is due to how our server handles credentials - not doing this will make your Personal Access Token (which we will set up soon) expire immediately on the system, even though it is actually valid for a month.
+    ```git config --global credential.helper 'cache --timeout=10000000'```
+    - Next, we will set the default branch name to main for any new repositories that are created moving forward. Why are we doing this? Previously, the default branch name was master and this racist terminology for git branches motivates us to update our default branch to main instead.
+    ```git config --global init.defaultBranch main```
+    - Finally, check to make sure everything looks correct
+    ```git config --global --list```
+    - Does everyone's credentials and global settings look correct? If not go ahead and reset them using the commands above
+- Now we'll be authenticating our GitHub account using a Personal Access Token or PAT for short. 
+- Follow along with me and there are the steps written out if you need them in the book
+- First make sure you're in the Console now then run `usethis::create_github_token()`
+- A new browser window should open up to GitHub, showing all the scopes options. You can review the scopes, but you don’t need to worry about which ones to select this time. Using `create_github_token()` automatically pre-selects some recommended scopes. Go ahead and scroll to the bottom and click “Generate Token”.
+- Back in RStudio, run `gitcreds::gitcreds_set()` in the Console
+- Paste your PAT
+- Then run `usethis::git_sitrep()` and check
+
 ## Transition
+
+Does everything look correct? Perfect! Let's get started with our first lesson in programming in R
 
 **Time check / end time: 10:00 AM**
 
@@ -127,6 +191,6 @@ editor: visual
 
 ## Transition
 
-- Time for break! We'll break for 30 mins now and 
+-   Time for break! We'll break for 30 mins now and meet back at 11:30AM. After the break Camila will be leading us through an introduction to R Markdown
 
 **Time check / end time: 11:00 AM**
